@@ -26,11 +26,3 @@ vnoremap <C-R><C-V> :RExtractLocalVariable<cr>
 vnoremap <C-R><C-C> :RExtractConstant<cr>
 vnoremap <C-R><C-R><C-I> :RRenameInstanceVariable<cr>
 vnoremap <C-R><C-R><C-L> :RRenameLocalVariable<cr>
-
-" mappings to move lines
-nnoremap <M-j> :m+<CR>==
-nnoremap <M-k> :m-2<CR>==
-inoremap <M-j> <Esc>:m+<CR>==gi
-inoremap <M-k> <Esc>:m-2<CR>==gi
-vnoremap <M-j> :m'>+<CR>gv=gv
-vnoremap <M-k> :m-2<CR>gv=gv
